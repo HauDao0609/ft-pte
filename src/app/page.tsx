@@ -357,7 +357,7 @@ export default function HomePage() {
             ))}
           </div>
           <blockquote className="text-2xl font-bold text-white mb-4 leading-snug">
-            "PTEUni's AI scoring helped me improve my speaking score from 65 to 82 in just 3 weeks!"
+            &ldquo;PTEUni&apos;s AI scoring helped me improve my speaking score from 65 to 82 in just 3 weeks!&rdquo;
           </blockquote>
           <p className="text-zinc-500 text-sm mb-14">— Sarah Chen, scored 86 overall</p>
 

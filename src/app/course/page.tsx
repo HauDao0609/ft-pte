@@ -78,7 +78,7 @@ export default function CoursePage() {
                     </div>
 
                     <div className="mb-5">
-                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">What you'll learn</h4>
+                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">What you&apos;ll learn</h4>
                       <ul className="space-y-1.5">
                         {course.lessons.map((lesson) => (
                           <li key={lesson} className="flex items-center gap-2 text-sm text-slate-600">

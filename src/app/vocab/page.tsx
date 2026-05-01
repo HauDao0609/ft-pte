@@ -114,7 +114,7 @@ export default function VocabPage() {
                     </div>
                   </div>
                   <p className="text-sm text-slate-600 line-clamp-2">{word.definition}</p>
-                  <p className="text-xs text-slate-400 mt-2 italic line-clamp-1">"{word.example}"</p>
+                  <p className="text-xs text-slate-400 mt-2 italic line-clamp-1">&ldquo;{word.example}&rdquo;</p>
                 </div>
               )
             })}
@@ -141,7 +141,7 @@ export default function VocabPage() {
             </div>
             <div className="bg-primary-50 rounded-2xl p-4 mb-4">
               <h3 className="text-xs font-bold text-primary-400 uppercase tracking-wider mb-2">Example</h3>
-              <p className="text-slate-700 italic">"{selectedWord.example}"</p>
+              <p className="text-slate-700 italic">&ldquo;{selectedWord.example}&rdquo;</p>
             </div>
             <button
               onClick={() => {
